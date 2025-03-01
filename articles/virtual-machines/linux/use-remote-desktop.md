@@ -17,14 +17,14 @@ ms.author: mattmcinnes
 
 When new to Linux, or for quick troubleshooting scenarios, the use of remote desktop may be easier than Secure Shell (SSH) access. This article details how to install and configure a desktop environment ([xfce](https://www.xfce.org)) and remote desktop ([xrdp](http://www.xrdp.org/)) for your Linux VM running Ubuntu.
 
-The article was written and tested using an Ubuntu 18.04 VM.
+The article was written and tested using an Ubuntu 18.04/20.04/22.04/24.04 LTS.
 
 > [!NOTE]
 > Using Remote Desktop over the internet will introduce noticeable "lag" (input latency) when compared to local desktop use. This can be influenced by multiple factors including local internet speed and distance from the datacenter where the virtual machine is hosted. This lag does not usually reflect the performance of the VM itself.
 
 ## Prerequisites
 
-This article requires an existing Ubuntu 18.04 LTS or Ubuntu 20.04 LTS VM in Azure. If you need to create a VM, use one of the following methods:
+This article requires an existing Ubuntu 18.04/20.04/22.04/24.04 LTS VM in Azure. If you need to create a VM, use one of the following methods:
 
 - The [Azure CLI](quick-create-cli.md)
 - The [Azure portal](quick-create-portal.md)
